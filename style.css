@@ -39,6 +39,7 @@ a {
     justify-content: space-between;
     padding: 10px 200px 100px 200px;
     width: auto;
+    gap: 100px;
 }
 
 .maintitle {
@@ -68,4 +69,24 @@ button {
     align-items: center;
     width: 500px;
     height: 200px;
+    flex-shrink: 0;
+}
+
+.quote_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    gap: 10px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300px;
+    color: #1F2937;
+}
+
+.author {
+    color: #1F2937;
 }
