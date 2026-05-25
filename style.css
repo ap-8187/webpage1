@@ -83,10 +83,82 @@ button {
 
 .quote {
     font-size: 36px;
-    font-weight: 300px;
+    font-weight: 300;
     color: #1F2937;
 }
 
 .author {
     color: #1F2937;
+    font-weight: 700;
+    font-size: 20px;
+    align-self: flex-end;
+}
+
+.empty_pic {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.random_title {
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1F2937;
+    margin: 32px auto 32px auto;
+    width: 500px;
+}
+
+.random {
+  display: flex;
+  margin: 32px auto 50px auto;
+  padding: 0px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.random_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empty_pic_text {
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+}
+
+.cta_section {
+    display: flex;
+    background-color: #F9FAF8;
+    justify-content: center;
+}
+
+.cta_section_middle {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    flex-shrink: 0;
+    margin: 75px;
+    padding: 50px 75px;
+    border-radius: 5px;
+}
+
+.cta_section button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px 30px;
+    margin: 5px 0px;
+}
+
+.ctatitle {
+    font-size: 20px;
+    font-weight: 700;
 }
